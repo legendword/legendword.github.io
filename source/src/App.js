@@ -39,6 +39,16 @@ class App extends React.Component {
 
 const data = [
   {
+    name: "arcade",
+    url: "https://github.com/legendword/arcade",
+    desc: "Legendword Arcade is an online mini-game platform. I intended to collect several popular mini-games to one place for easy access to all of them. When finished, this platform will be capable of adding others as friends and competing online.",
+    data: {
+      StartDate: "Nov. 23, 2019",
+      Version: "0.2.1",
+      Status: "Contemporary"
+    }
+  },
+  {
     name: "legendword.github.io",
     url: "https://github.com/legendword/legendword.github.io",
     desc: "This project, obviously.",

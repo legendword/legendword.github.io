@@ -9,28 +9,27 @@ export class MainIntro extends Component {
                 <div>
                 </div>
                 <br />
-                <h5>A Somewhat Awkward Introduction</h5>
+                <h5>An Introduction</h5>
                 <p style={paragraphStyle}>
                     Hello there! I have been doing web programming as a hobby for 
-                    about five years, producing numerous small or large projects 
-                    of my own. While most of them are results of my learning process, 
-                    there are some projects that I was very excited about and did 
-                    really put my effort in.
+                    about five years and worked on numerous projects of my own. 
+                    While most of them are results of my learning process, 
+                    there are a few projects which I put much effort in.
                 </p>
                 <p style={paragraphStyle}>
-                    As a means of sharing the excitement, I started to make my projects 
-                    from the past open source. You can always have a look at them and 
+                    As a way of sharing the excitement, I started to make some of my 
+                    projects open source. You can always have a look at them and 
                     perhaps submit an issue/pull request. This Github Pages site is 
                     created solely for the purpose of listing and introducing my 
                     repositories to you.
                 </p>
                 <p style={paragraphStyle}>
-                    You can find information on a specific repository. For some of 
-                    them, you might even find a story or the thought process of the 
-                    project.
+                    You can find some general information on my repositories here.
+                    For some of them, you might even find a story or the thought process
+                    behind the project.
                 </p>
                 <hr />
-                <h5>Some Links</h5>
+                <h5>Links</h5>
                 <div className="container">
                     <dl className="row">
                         {
@@ -59,7 +58,7 @@ const links = [
     },
     {
         name: "Website",
-        href: "http://legendword.com"
+        href: "https://legendword.com"
     }
 ]
 
