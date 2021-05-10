@@ -9,15 +9,13 @@ export class MainIntro extends Component {
                 <div>
                 </div>
                 <br />
-                <h5>An Introduction</h5>
+                <h5>Introduction</h5>
                 <p style={paragraphStyle}>
                     Hello there! I have been doing web programming as a hobby for 
-                    about five years and worked on numerous projects of my own. 
-                    While most of them are results of my learning process, 
-                    there are a few projects which I put much effort in.
+                    about five years and worked on numerous projects of my own.
                 </p>
                 <p style={paragraphStyle}>
-                    As a way of sharing the excitement, I started to make some of my 
+                    As a way of contributing to the community and learning from others, I started to make some, if not all, of my 
                     projects open source. You can always have a look at them and 
                     perhaps submit an issue/pull request. This Github Pages site is 
                     created solely for the purpose of listing and introducing my 
@@ -27,6 +25,9 @@ export class MainIntro extends Component {
                     You can find some general information on my repositories here.
                     For some of them, you might even find a story or the thought process
                     behind the project.
+                </p>
+                <p style={paragraphStyle}>
+                    Keep in mind that this GitHub Pages site is not always up to date. Refer to my GitHub repositories for more detail and most recent information.
                 </p>
                 <hr />
                 <h5>Links</h5>

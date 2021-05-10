@@ -39,9 +39,29 @@ class App extends React.Component {
 
 const data = [
   {
+    name: "blog",
+    url: "https://github.com/legendword/blog",
+    desc: "Open-source, elegant blogging system made with Quasar. Features all core functionalities of publishing blog posts, browsing posts, and interacting with authors.",
+    data: {
+      StartDate: "Feb. 24, 2021",
+      Version: "0.2.1",
+      Status: "Contemporary, Open Beta"
+    }
+  },
+  {
+    name: "games",
+    url: "https://github.com/legendword/games",
+    desc: "Legendword Games, multiplayer card games created with Quasar and SocketIO.",
+    data: {
+      StartDate: "Mar. 31, 2021",
+      Version: "1.1.1",
+      Status: "Contemporary, Open Beta"
+    }
+  },
+  {
     name: "arcade",
     url: "https://github.com/legendword/arcade",
-    desc: "Legendword Arcade is an online mini-game platform. I intended to collect several popular mini-games to one place for easy access to all of them. When finished, this platform will be capable of adding others as friends and competing online.",
+    desc: "Legendword Arcade is an online mini-game platform written with React. I intended to collect several popular mini-games in one place for easy access to all of them. When finished, this platform will be capable of adding others as friends and competing online.",
     data: {
       StartDate: "Nov. 23, 2019",
       Version: "0.2.1",
@@ -51,10 +71,10 @@ const data = [
   {
     name: "legendword.github.io",
     url: "https://github.com/legendword/legendword.github.io",
-    desc: "This project, obviously.",
+    desc: "Source code for this GitHub pages site.",
     data: {
       StartDate: "Sep. 15, 2019",
-      Version: "1.0.191129",
+      Version: "1.0.210510",
       Status: "Contemporary, Stable"
     }
   },
