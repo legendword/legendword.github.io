@@ -1,75 +1,43 @@
 <template>
-    <div class="main">
-        <div class="section flex-column-center">
-            <div id="main-title" class="main-title">Legendword Open Source</div>
-        </div>
-        <div class="sidebar-nav">
-            
-        </div>
-        <div class="section">
-        </div>
+  <div class="main">
+    <div class="jumbotron-container">
+      <div class="jumbotron">
+        Simple, elegant, and effective apps, free for everyone.
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
-import ScrollBasedAnimation from '../helpers/ScrollBasedAnimation';
-
 export default {
-    name: 'IndexPage',
-    data() {
-        return {
-            sba: new ScrollBasedAnimation([
-                {
-                    id: 'main-title',
-                    from: 0,
-                    to: 50,
-                    values: {
-                        fontSize: {
-                            from: 3,
-                            to: 2.4,
-                            unit: 'rem'
-                        },
-                        opacity: {
-                            from: 1,
-                            to: 0
-                        }
-                    }
-                }
-            ])
-        }
-    },
-    methods: {
-
-    },
-    mounted() {
-        this.sba.create();
-        console.log(this.sba.value);
-    },
-    beforeUnmount() {
-        this.sba.destroy();
-    }
-}
+  name: "IndexPage",
+  data() {
+    return {};
+  },
+  methods: {},
+};
 </script>
 
 <style scoped>
 .main {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.section {
-    width: 100%;
-    height: 100vh;
+.jumbotron-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
-.flex-column-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.main-title {
-    font-size: 3rem;
-    text-align: center;
+.jumbotron {
+  font-size: 2rem;
+  text-align: center;
+  width: min(80%, 800px);
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 8px;
 }
 </style>
