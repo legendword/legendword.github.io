@@ -3,8 +3,10 @@
         <div class="section flex-column-center">
             <div id="main-title" class="main-title">Legendword Open Source</div>
         </div>
+        <div class="sidebar-nav">
+            
+        </div>
         <div class="section">
-
         </div>
     </div>
 </template>
@@ -21,7 +23,6 @@ export default {
                     id: 'main-title',
                     from: 0,
                     to: 50,
-                    unit: 'vh',
                     values: {
                         fontSize: {
                             from: 3,
@@ -34,10 +35,7 @@ export default {
                         }
                     }
                 }
-            ]),
-            animation: {
-                mainTitleSize: '3rem'
-            }
+            ])
         }
     },
     methods: {

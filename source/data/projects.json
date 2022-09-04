@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Legendword Games",
+        "url": "https://games.legendword.com/",
+        "github": "https://github.com/legendword/games",
+        "desc": "Play games online with friends. Or play singleplayer games. No registration needed.",
+        "details": "This Vue project consists of both singleplayer games (which are just single-file components that are standalone) and multiplayer games (which connect to the backend via WebSocket and HTTP requests). I will be constantly expanding the repository of games on this platform; if you have a particular game in mind, feel free to open an issue to tell me, or better yet, implement it yourself and open a pull request!",
+        "frontend": ["Vue 2", "Quasar"],
+        "backend": ["Node.js", "Express", "Socket.io"],
+        "platforms": ["Web"],
+        "dateCreated": "2021-03-31"
+    },
+    {
+        "name": "time2gather",
+        "url": "https://analycube.com/time2gather/",
+        "github": "https://github.com/legendword/time2gather",
+        "desc": "Find the perfect meeting time with others. Inspired by when2meet.",
+        "details": "Experienced with the elegant React UI library ChakraUI. Also tried using MongoDB which turned out to be great for storing simple JSON data. Will definitely consider using MongoDB more often in future projects.",
+        "frontend": ["React", "ChakraUI"],
+        "backend": ["Node.js", "Express", "MongoDB"],
+        "platforms": ["Web"],
+        "dateCreated": "2021-12-20"
+    },
+    {
+        "name": "WordBlog",
+        "url": "https://blog.legendword.com/",
+        "github": "https://github.com/legendword/blog",
+        "desc": "Full blogging system built with Quasar. Follow writers, curate article collections, and comment. Everyone can be a writer.",
+        "details": "This is my largest project by far. It has numerous features, and lots of planned features are being slowly worked on. There is a quite complex MySQL database structure for storing all the user and blog related information. At one point, I switched from session authentication to JSON Web Tokens due to inconsistencies in mobile clients and Safari. The blog and all its features are completely free and open-source at this stage. However, the code is somewhat unorganized, so one of my goals is to maintain an easily understandable code for this project so others can make use of any of the components in their own projects or contribute to this repo more efficiently.",
+        "frontend": ["Vue 2", "Quasar"],
+        "backend": ["Node.js", "Express", "MySQL", "JWT Authentication"],
+        "platforms": ["Web", "Desktop", "iOS"],
+        "dateCreated": "2021-02-24"
+    },
+    {
+        "name": "When",
+        "url": "https://legendword.com/when",
+        "github": "https://github.com/legendword/when",
+        "desc": "Minimalistic day planner for individuals.",
+        "details": "",
+        "frontend": ["Vue 2", "Quasar", "IndexedDB"],
+        "platforms": ["Web", "Desktop"],
+        "dateCreated": "2021-06-15"
+    }
+]
