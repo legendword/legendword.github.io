@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="page">
     <div class="header">
       <div class="site-title">
         <a
@@ -21,10 +21,13 @@
 </template>
 
 <style>
+.page {
+  padding: 0 max(20px, 5vw);
+}
+
 .header {
   height: 80px;
   line-height: 80px;
-  padding-left: max(20px, 5vw);
   font-size: 24px;
   display: flex;
   justify-content: flex-start;
